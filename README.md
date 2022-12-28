@@ -7,7 +7,7 @@ Runs your own Stable Diffusion v1.4 API with Flask & Docker
 - [Huggingface Access Token](https://huggingface.co/settings/tokens)
 
 ## To Start the Server:
-1. `git clone https://github.com/viral-medialab/stable_diffusion_server.git`
+1. `git clone https://github.com/scarlett1130/stable_diffusion_server.git`
 2. `sh setup.sh`
 3. In line 34 of the Dockerfile, replace `<TOKEN>` with your [Huggingface Access Token](https://huggingface.co/settings/tokens)
 4. `docker build --tag sd_server .`
